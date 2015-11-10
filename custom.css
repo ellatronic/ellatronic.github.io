@@ -60,7 +60,7 @@ body {
 .navbar img {
 	padding-top: .7em;
 	width: 2em;
-  	vertical-align: middle;
+  vertical-align: middle;
 }
 /*.navbar-default .navbar-nav > .active {
     color: #000;
@@ -82,18 +82,18 @@ body {
   letter-spacing: 1px;
 }
 .navbar-default .navbar-nav>li>a {
-    color: #000;
+  color: #000;
 }
 
 .navbar a:visited {
-text-decoration:none;
-color: #FF83B8;
+  text-decoration:none;
+  color: #FF83B8;
 }
 
 .navbar a:hover {
-text-decoration:none;
-opacity: .8;
-color: #AAAAAA;
+  text-decoration:none;
+  opacity: .8;
+  color: #AAAAAA;
 }
 
 .navbar .navbar-nav {
