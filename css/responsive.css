@@ -1,7 +1,4 @@
 @media screen and (min-width: 412px) {
-	body {
-		background: navy;
-	}
 	/******************************
 	HEADER
 	******************************/
@@ -15,8 +12,61 @@
 	}
 }
 
+@media screen and (min-width: 480px) {
+	/******************************
+	TWO COLUMN LAYOUT
+	******************************/
+	.column {
+		width: 42.5%;
+		float: left;
+		position: relative;
+		min-height: 1px;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+
+	.column:nth-child(5n) {
+		clear: left;
+	}
+
+	/******************************
+	PAGE: CONTACT
+	******************************/
+	#primary {
+		width: 50%;
+		float: left;
+		margin: 0 0 5% 0;
+	}
+
+	#secondary {
+		width: 40%;
+		float: right;
+		margin: 0 0 5% 0;
+	}
+}
+
 @media screen and (min-width: 660px) {
-	body {
-		background: darkgreen;
+
+}
+
+@media screen and (min-width: 900px) {
+	/******************************
+	THREE COLUMN LAYOUT
+	******************************/
+	.column {
+		width: 33.3333%;
+		float: left;
+		position: relative;
+		min-height: 1px;
+		padding-right: 15px;
+		padding-left: 15px;
+		box-sizing: border-box;
+	}
+
+	.column:nth-child(4n) {
+		clear: left;
+	}
+	.column:nth-child(5n) {
+		clear: none;
 	}
 }

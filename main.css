@@ -221,6 +221,7 @@ a.info {
 BELOW GALLERY
 ******************************/
 #github-data {
+	clear: both;
 	text-align: right;
 	margin-top: 3%;
 }
@@ -312,6 +313,7 @@ CONTACT FORM
 ******************************/
 
 .form {
+	clear: both;
 	border: 1px solid #000000;
 	margin: 3% 13%;
 	padding: 2%;
